@@ -1,0 +1,32 @@
+ <html>
+    {{>headtag}}
+    <body>
+        {{!--navbar --}}
+        {{>navbar}}
+
+ <div class="container-fluid main_header">
+     <div class="row">
+       <div class="col-md-10 col-12 mx-auto">
+         <div class="row">
+             
+              <div class="col-md-12 col-12 main_header_rigth about_image">
+                <figure>
+                 <img src="images/error.jpg" alt="error" class="img-fluid">   
+                </figure> 
+                   
+             
+              <p>Welcome to weather app</p>
+              <h1> {{errordata}}</h1>
+              <a href="/" ><button>Go Home</button></a>
+            </div>
+              
+         </div>
+       </div>
+     </div>
+    </div>
+
+
+        {{!-- footer --}}
+        {{>footer}}
+    </body>
+</html>
